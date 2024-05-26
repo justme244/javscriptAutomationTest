@@ -1,0 +1,20 @@
+{
+  "name": "javscriptautomationtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/api/postExample.mjs",
+    "test get": "mocha filename.js",
+    "test post": "mocha filename.js"
+  },
+  "keywords": [],
+  "author": "Rizky Yugo",
+  "license": "ISC",
+  "type":"module",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  }
+}
